@@ -95,10 +95,3 @@ td {
   color: hsl(14, 45%, 36%);
   font-weight: 700;
 }
-@media (max-width:376px) {
-    .card{
-        width: 100vw;
-        margin: 0px 0px;
-        padding: 0px;
-    }
-}
