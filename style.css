@@ -1,0 +1,104 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", system-ui;
+  color: hsl(30, 10%, 34%);
+  font-size: 18px;
+}
+body * {
+  margin: 0px;
+  padding: 0px;
+}
+strong {
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 736px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 25px;
+}
+img {
+  width: 736px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-family: "Young Serif", system-ui;
+  font-size: 35pt;
+  color: hsl(24, 5%, 18%);
+  font-weight: 40;
+  margin-bottom: 26px;
+}
+.info {
+  margin-bottom: 35px;
+}
+.preparation-wrapper {
+  background-color: hsl(330, 100%, 98%);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+.preparation-wrapper li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.ingredients-wrapper li::marker {
+  color: hsl(14, 45%, 36%);
+}
+li {
+  padding-left: 15px;
+  margin: 0px 0px 15px 25px;
+}
+h2 {
+  font-family: "Young Serif", system-ui;
+  font-size: 30px;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 25px;
+}
+hr {
+  border-color: hsl(30, 54%, 90%);
+  border: 1px solid hsl(30, 18%, 87%);
+  margin: 20px 0px;
+}
+.instructions-wrapper li::marker {
+  font-family: system-ui;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+table {
+  width: 100%;
+}
+.table-info {
+  text-align: left;
+  margin-bottom: 15px;
+}
+td {
+  height: 45px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.last-td {
+  border-bottom: none;
+}
+.sec-data {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+@media (max-width:376px) {
+    .card{
+        width: 100vw;
+        margin: 0px 0px;
+        padding: 0px;
+    }
+}
