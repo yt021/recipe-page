@@ -49,7 +49,7 @@ h1 {
 }
 h3 {
   color: hsl(332, 51%, 32%);
-  margin-bottom: 1px;
+  margin-bottom: 20px;
 }
 .preparation-wrapper li::marker {
   color: hsl(332, 51%, 32%);
@@ -86,15 +86,19 @@ table {
   margin-bottom: 15px;
 }
 td {
-  height: 45px;
   border-bottom: 1px solid hsl(30, 18%, 87%);
 }
-.last-td {
-  border-bottom: none;
+
+.first-data{
+  padding: 17.5px 0px 17.5px 30px;
 }
 .sec-data {
   color: hsl(14, 45%, 36%);
   font-weight: 700;
+  padding: 17.5px 30px 17.5px 0px;
+}
+.last-td {
+  border-bottom: none;
 }
 @media (max-width: 768px) {
   body {
@@ -124,6 +128,6 @@ td {
     font-size: 17px;
   }
   .last-td {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
 }
